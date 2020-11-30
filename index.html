@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch The Rat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getHighScore()">
+    <div>
+        <div class="head">
+            <div class="h1">
+                Catch The Mouse
+            </div>
+            <div class="img">
+                <img src="rat.gif" alt="">
+            </div>
+        </div>
+        <div id="div1">
+            <input type="button" value="Start Game" onclick="displayGame()" id="btnStart">
+        </div>
+        <div class="" id="div2">
+            <div class="left">
+                <div class="col col1"></div>
+                <div class="col col2"></div>
+                <div class="col col1"></div>
+                <div class="col col2"></div>
+                <div class="col col2"></div>
+                <div class="col col1"></div>
+                <div class="col col2"></div>
+                <div class="col col1"></div>
+                <div class="col col1"></div>
+                <div class="col col2"></div>
+                <div class="col col1"></div>
+                <div class="col col2"></div>
+                <div class="col col2"></div>
+                <div class="col col1"></div>
+                <div class="col col2"></div>
+                <div class="col col1"></div>
+            </div>
+            <div class="right">
+                <div class="score">
+                    <p id="yourScore">Your Score: <span id="score">0</span></p>
+                    <p id="highScore">High Score: <span id="highscore">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

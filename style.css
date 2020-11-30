@@ -1,0 +1,127 @@
+body
+{
+    background-image: url('bg1.gif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+.head
+{
+    text-align: center;
+}
+.h1
+{
+    font-size: 3em;
+    color: #ef619e;
+    font-weight: bold;
+    display: initial;
+    padding: 1% 0;
+    text-shadow: 2px 3px #f5b64b;
+    
+}
+.img
+{
+    display: inline;
+}
+.head img
+{
+    height: 4em;
+    padding: 1% 0;
+    transform: translate(10px, 18px);
+}
+
+#div2
+{
+    visibility: hidden;
+    display:none;
+    
+}
+.col
+{
+    width: 20%;
+    height:20vh;
+    border: 1px solid #0400ff78;
+    border-radius: 20%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin: 0 0.5% 0.5% 0;
+    box-shadow: 2px 3px 9px #0400ff78;
+}
+.col1
+{
+    background-color: #f5b64c9e;
+    border: 1px solid #ef619ea1;
+}
+.col2
+{
+    background-color: #ef619eab;
+    border: 1px solid #f5b64c91;
+}
+#btnStart
+{
+    background: #ef619e;
+    color: white;
+    border: 1px;
+    font-size: 2em;
+    padding: 15px 34px;
+    transform: translate(43vw, 25vh);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 0px 6px 6px #f5b44ce0;
+}
+.left
+{
+    width: 65%;
+    float: left;
+    text-align: center;
+    padding: 2% 4% 0 4%;
+}
+.right
+{
+    width: 35%;
+    float: left;
+    margin: 8% auto;
+}
+.score
+{
+    background-color: #ef619ea1;
+    color: white;
+    width: fit-content;
+    font-size: 2em;
+    padding: 15%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 6px #f5b64b;
+}
+@media (min-width:280px) and (max-width:540px)
+{
+    .head
+    {
+        padding-top:6%;
+    }
+    .left
+    {
+        width: 100%;
+        margin-top:12%;
+    }
+    .right
+    {
+        width: 100%;
+        margin-left:12%;
+        margin-top:12%
+    }
+    .col
+    {
+        width: 22%;
+        height: 14vh;
+    }
+    #btnStart
+    {
+        transform: translate(24vw, 25vh);
+    }
+    .img_height
+    {
+        height: 13vh;
+    }
+}
