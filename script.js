@@ -15,7 +15,7 @@ function getHighScore()
 }
 function ratRandom()
 {
-    let random1=getRandomInt(15);
+    let random1=getRandomInt(11);
     console.log(random1);
     let img1=document.createElement('img');
     img1.src="rat1.gif";
@@ -39,11 +39,14 @@ function ratRandom()
         }
         else
         {
+            document.getElementById('btnplay').style.visibility="visible";
+            document.getElementById('btnplay').style.display="block";
             if(i>getCookie("highscore"))
             {
                 document.getElementById('highscore').innerHTML=i;
                 setCookie(i);
             }
+            
         }
     }, 600);
 }
@@ -87,5 +90,7 @@ function playAgain()
 {
     i=0,rounds=0;
     document.getElementById('score').innerHTML=i;
+    document.getElementById('btnplay').style.visibility="hidden";
+    document.getElementById('btnplay').style.display="none";
     ratRandom();
 }
