@@ -1,3 +1,22 @@
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #f5b64b; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ef619e; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:  #da4686; 
+  }
 body
 {
     background-image: url('bg1.gif');
@@ -39,24 +58,26 @@ body
 }
 .col
 {
-    width: 20%;
+    width: 17%;
     height:20vh;
     border: 1px solid #0400ff78;
     border-radius: 20%;
     background-size: cover;
     background-position: center;
     float: left;
-    margin: 0 0.5% 0.5% 0;
+    margin: 0 3% 2% 0;
     box-shadow: 2px 3px 9px #0400ff78;
 }
 .col1
 {
-    background-color: #f5b64c9e;
+    /* background-color: #f5b64c9e; */
+    background-color: #d7fd0054;
     border: 1px solid #ef619ea1;
 }
 .col2
 {
-    background-color: #ef619eab;
+    /* background-color: #ef619eab; */
+    background-color: #f0393747;
     border: 1px solid #f5b64c91;
 }
 #btnStart
@@ -86,10 +107,11 @@ body
 }
 .score
 {
-    background-color: #ef619ea1;
+    background-color: #f0393747;
     color: white;
     width: fit-content;
     font-size: 2em;
+    font-weight: bold;
     padding: 15%;
     border-radius: 15px;
     box-shadow: 0px 0px 9px 6px #f5b64b;
@@ -115,6 +137,7 @@ body
     {
         width: 22%;
         height: 14vh;
+        margin:0% 1% 2% 0%;
     }
     #btnStart
     {
