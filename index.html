@@ -6,7 +6,7 @@
     <title>Catch The Rat</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="getHighScore()">
+<body class="body" onload="getHighScore()">
     <div>
         <div class="head">
             <div class="h1">
@@ -42,6 +42,7 @@
                 <div class="score">
                     <p id="yourScore">Your Score: <span id="score">0</span></p>
                     <p id="highScore">High Score: <span id="highscore">0</span></p>
+                    <input type="button" value="Play Again!!!" id="btnplay" onclick="playAgain()">
                 </div>
             </div>
         </div>

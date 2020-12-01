@@ -17,7 +17,7 @@
   ::-webkit-scrollbar-thumb:hover {
     background:  #da4686; 
   }
-body
+.body
 {
     background-image: url('bg1.gif');
     background-attachment: fixed;
@@ -87,10 +87,15 @@ body
     border: 1px;
     font-size: 2em;
     padding: 15px 34px;
-    transform: translate(43vw, 25vh);
+    transform: translate(0, 25vh);
     border-radius: 5px;
     outline: none;
     box-shadow: 0px 0px 6px 6px #f5b44ce0;
+}
+#div1
+{
+    height: 80vh;
+    text-align: center;
 }
 .left
 {
@@ -116,8 +121,22 @@ body
     border-radius: 15px;
     box-shadow: 0px 0px 9px 6px #f5b64b;
 }
+#btnplay
+{
+    background: #ef312fc9;
+    color: white;
+    border: 1px;
+    width: 100%;
+    font-size: 0.8em;
+    padding: 12px;
+    border-radius: 5px;
+}
 @media (min-width:280px) and (max-width:540px)
 {
+    html
+    {
+        overflow-x: hidden;
+    }
     .head
     {
         padding-top:6%;
@@ -138,10 +157,6 @@ body
         width: 22%;
         height: 14vh;
         margin:0% 1% 2% 0%;
-    }
-    #btnStart
-    {
-        transform: translate(24vw, 25vh);
     }
     .img_height
     {

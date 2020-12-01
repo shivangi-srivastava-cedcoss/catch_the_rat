@@ -83,3 +83,9 @@ function displayGame()
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
+function playAgain()
+{
+    i=0,rounds=0;
+    document.getElementById('score').innerHTML=i;
+    ratRandom();
+}
