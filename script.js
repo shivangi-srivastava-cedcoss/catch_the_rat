@@ -1,8 +1,10 @@
 var i=0,rounds=0;
 const mediaQuery = window.matchMedia('(min-width:280px) and (max-width:540px)');
+var previousOrientation = window.orientation;
 var highscore1=getCookie("highscore");
 function getHighScore()
 {
+    console.log(previousOrientation);
     if(highscore1=='')
     {
         document.getElementById('highscore').innerHTML=0;

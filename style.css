@@ -19,7 +19,7 @@
   }
 .body
 {
-    background-image: url('bg1.gif');
+    background-image: url('bg1.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,12 +32,11 @@
 .h1
 {
     font-size: 3em;
-    color: #ef619e;
+    color: #4fd70c;
     font-weight: bold;
     display: initial;
     padding: 1% 0;
-    text-shadow: 2px 3px #f5b64b;
-    
+    text-shadow: 2px 3px #cefb17;
 }
 .img
 {
@@ -71,19 +70,17 @@
 }
 .col1
 {
-    /* background-color: #f5b64c9e; */
-    background-color: #d7fd0054;
-    border: 1px solid #ef619ea1;
+    background-color: #c7ff2a4f;
+    border: 1px solid #50cae754;
 }
 .col2
 {
-    /* background-color: #ef619eab; */
-    background-color: #f0393747;
-    border: 1px solid #f5b64c91;
+    background-color: #50cae754;
+    border: 1px solid #c7ff2a4f;
 }
 #btnStart
 {
-    background: #ef619e;
+    background: #267ea294;
     color: white;
     border: 1px;
     font-size: 2em;
@@ -91,7 +88,7 @@
     transform: translate(0, 25vh);
     border-radius: 5px;
     outline: none;
-    box-shadow: 0px 0px 6px 6px #f5b44ce0;
+    box-shadow: 0px 0px 6px 6px #fefef9;
 }
 #div1
 {
@@ -113,19 +110,19 @@
 }
 .score
 {
-    background-color: #ef619edb;
+    background: #267ea294;
     color: white;
     width: fit-content;
     font-size: 2em;
     font-weight: bold;
     padding: 21% 15%;
     border-radius: 15px;
-    box-shadow: 0px 0px 9px 6px #f5b64b;
+    box-shadow: 0px 0px 9px 6px #fefef9;
 }
 #btnplay
 {
     background: #ffffffc9;
-    color: #ef619e;
+    color:#267ea294;
     border: 1px;
     width: 100%;
     font-weight: bold;
